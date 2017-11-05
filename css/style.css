@@ -1,0 +1,112 @@
+* {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia;
+    line-height: 1.4em;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background: #028E9B;
+}
+
+nav ul {
+    background: #1E6D74;
+}
+
+nav > ul > li:hover {
+    padding-left: 10px; 
+    transition: padding-left 0.3s;
+}
+
+nav > ul > li > a {
+    color: #FF7800;
+}
+
+nav > ul > li > a:hover {
+    padding-left: 10px;
+    color: white;
+    transition: all 0.3s;
+}
+
+
+nav > ul > li > a:focus {
+    color: #34D1B2;
+}
+
+nav > ul > li:focus-within > a {
+    color: #34D1B2;
+}
+
+nav > ul > li > ul > li:hover {
+    padding-left: 10px;
+    transition: all 0.3s;
+}
+
+
+nav > ul > li > ul > li > a {
+    color: #FF9A40;
+}
+
+nav > ul > li > ul > li > a:hover {
+    padding-left: 10px;
+    color: white;
+    transition: all 0.3s;
+}
+
+nav > ul > li >  ul > li > a:focus {
+    color: #34D1B2;
+    
+}
+
+nav > ul > li >  ul > li:focus-within > a {
+    color: #34D1B2;
+}
+
+nav > ul > li > ul > li > ul > li > a {
+    color: #FFB573;
+}
+
+nav > ul > li > ul > li > ul > li > a:hover {
+    padding-left: 10px; 
+    color: white;
+    transition: all 0.3s;
+}
+
+nav > ul > li > ul > li > ul > li > a:focus {
+    color: #34D1B2;
+}
+
+header h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-indent: 40px;
+}
+
+main ol, main ul {
+    background: #A60000;
+}
+
+main > img {
+    display: block;
+    border: 15px solid #A64E00;
+    margin: 0 auto;
+}
+
+main > h2 + p {
+    color: #ccc;
+}
+
+main > img:hover {
+    transform: scale(1.5);
+    transition: all 0.3s;
+} 
+
+footer {
+    text-transform: uppercase;
+}
